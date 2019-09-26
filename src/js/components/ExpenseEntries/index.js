@@ -6,9 +6,9 @@ import ExpenseEntries from './ExpenseEntries';
 //thats passed to the props of the component.
 function mapStoreToProps(store) {
     return{
-        description: store.income.description,
-        amount: store.income.amount,
-        lineItems: store.income.lineItems
+        description: store.expense.description,
+        amount: store.expense.amount,
+        lineItems: store.expense.lineItems
     };
 }
 //this might look odd, but connect reuturns a function,
