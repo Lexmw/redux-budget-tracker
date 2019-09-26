@@ -67,7 +67,7 @@ export default class IncomeEntries extends React.Component {
                   className='form-control'
                   id='income-amount'
                   value= { amount }
-                  onChange = { this.handleDescriptionInput }
+                  onChange = { this.handleAmountInput }
                 />
               </div>
             </div>
